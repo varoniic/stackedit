@@ -65,6 +65,7 @@ Ozotak API Docs
 #### Get all Timelogs
 
 * **GET** https://work.ozotak.se/api/v1/timelog
+* a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzczNTE3XX0=
+eyJoaXN0b3J5IjpbLTE2MTU1MTI1OTQsMTg4MzczNTE3XX0=
 -->
