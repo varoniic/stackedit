@@ -38,34 +38,34 @@ Ozotak API Docs
 
   
 
-#### *Get all Projects*
+ - #### *Get all Projects*
+   
+	 - **GET** https://work.ozotak.se/api/v1/project
+ - #### Get Project by Id
+   
+ - **GET** https://work.ozotak.se/api/v1/project/$project_id `@PARAMS: project_id; @TEST: 12`
 
-* **GET** https://work.ozotak.se/api/v1/project
+ - #### Create Project
 
-#### Get Project by Id
+	* **POST** https://work.ozotak.se/api/v1/project `@PARAMS: project_name, project_code, project_summary`
 
-* **GET** https://work.ozotak.se/api/v1/project/$project_id `@PARAMS: project_id; @TEST: 12`
+ - #### Upload Project File
+   
+	 - **POST** https://work.ozotak.se/api/v1/project_files/$project_id `@PARAMS: file`
 
-#### Create Project
-
-* **POST** https://work.ozotak.se/api/v1/project `@PARAMS: project_name, project_code, project_summary`
-
-#### Upload Project File
-
-* **POST** https://work.ozotak.se/api/v1/project_files/$project_id `@PARAMS: file`
-
-#### Delete Project File
-
-* **POST** https://work.ozotak.se/api/v1/project_files/delete/$project_file_id `
+ - #### Delete Project File
+   
+   * **POST** https://work.ozotak.se/api/v1/project_files/delete/$project_file_id `
 
 ### Timelogs
 
   
 
-#### Get all Timelogs
+ - #### Get all Timelogs
+   
+   * **GET** https://work.ozotak.se/api/v1/timelog
 
-* **GET** https://work.ozotak.se/api/v1/timelog
-* a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU1MTI1OTQsMTg4MzczNTE3XX0=
+eyJoaXN0b3J5IjpbLTE3MjQ2NTA0NjQsLTE2MTU1MTI1OTQsMT
+g4MzczNTE3XX0=
 -->
