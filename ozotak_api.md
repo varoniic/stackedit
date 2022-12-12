@@ -90,11 +90,10 @@ Ozotak API Docs
 			 * extra_time (format: i:s)
 			 * extra_time_comment (required if extra time > 00:00)
 	- #### Update Timelog Data
-	 * **POST** https://work.ozotak.se/api/v1/timelog/
+	 * **POST** https://work.ozotak.se/api/v1/timelog/$id
 		 * @QUERY
-			 * 
+			 * id
 		 * @PARAMS
-			 * project_id (required)
 			 * start_date (required | format: d-m-Y) 
 			 * start_time (required | format: i:s)
 			 * end_time (required | format: i:s)
@@ -104,7 +103,7 @@ Ozotak API Docs
 			 * extra_time_comment (required if extra time > 00:00)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjA2MjU4MiwtNDU5ODEwMzIsLTc3Nj
+eyJoaXN0b3J5IjpbLTQ1Nzk4OTkyOSwtNDU5ODEwMzIsLTc3Nj
 QxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUx
 N119
 -->
