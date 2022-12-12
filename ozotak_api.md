@@ -67,16 +67,15 @@ Ozotak API Docs
    
    - **POST** https://work.ozotak.se/api/v1/project_files/delete/$project_file_id `
 		- @PARAMS: 
-			- file
+			- project_file_id
+			
 ### Timelogs
-
-  
 
  - #### Get all Timelogs
    
    * **GET** https://work.ozotak.se/api/v1/timelog
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTE5MDgxMiwtMTYyMDg3ODE1MiwtMT
-YxNTUxMjU5NCwxODgzNzM1MTddfQ==
+eyJoaXN0b3J5IjpbLTc3NjQxMjcwLC0xNjIwODc4MTUyLC0xNj
+E1NTEyNTk0LDE4ODM3MzUxN119
 -->
