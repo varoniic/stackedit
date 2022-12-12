@@ -65,8 +65,9 @@ Ozotak API Docs
 
  - #### Delete Project File
    
-   * **POST** https://work.ozotak.se/api/v1/project_files/delete/$project_file_id `
-
+   - **POST** https://work.ozotak.se/api/v1/project_files/delete/$project_file_id `
+		- @PARAMS: 
+			- file
 ### Timelogs
 
   
@@ -76,6 +77,6 @@ Ozotak API Docs
    * **GET** https://work.ozotak.se/api/v1/timelog
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA2NTM4NywtMTYyMDg3ODE1MiwtMT
+eyJoaXN0b3J5IjpbMTkzOTE5MDgxMiwtMTYyMDg3ODE1MiwtMT
 YxNTUxMjU5NCwxODgzNzM1MTddfQ==
 -->
