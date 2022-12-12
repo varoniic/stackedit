@@ -75,9 +75,9 @@ Ozotak API Docs
    
    * **GET** https://work.ozotak.se/api/v1/timelog
 	   * @PARAMS
-		   * period (optional, default=this month) : 
+		   * period (optional, default=this month) : @values = last (last month) | all 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgxMTk4MTYsLTc3NjQxMjcwLC0xNj
-IwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUxN119
+eyJoaXN0b3J5IjpbODU4NDUyOTY5LC03NzY0MTI3MCwtMTYyMD
+g3ODE1MiwtMTYxNTUxMjU5NCwxODgzNzM1MTddfQ==
 -->
