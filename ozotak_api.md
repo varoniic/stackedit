@@ -80,15 +80,16 @@ Ozotak API Docs
 	 * **POST** https://work.ozotak.se/api/v1/timelog
 		 * @PARAMS
 			 * project_id (required)
-			 * start_date (format: d-m-Y) 
-			 * start_time (format: i:s)
-			 * end_time (format: i:s)
+			 * start_date (required | format: d-m-Y) 
+			 * start_time (required | format: i:s)
+			 * end_time (required | format: i:s)
 			 * lunch_break (in minutes) : @VALUES = 0 | 30 | 60 | 90 | 120
 			 * memo (Main timelog comment)
-			 * extra_time
+			 * extra_time (format: i:s)
+			 * extra_time_comment (required if extra time > 00:00)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODc4NDYxNCwtNDU5ODEwMzIsLTc3Nj
+eyJoaXN0b3J5IjpbMjEzMDU0NzUyNywtNDU5ODEwMzIsLTc3Nj
 QxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUx
 N119
 -->
