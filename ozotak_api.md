@@ -44,7 +44,7 @@ Ozotak API Docs
  - #### Get Project by Id
    
 	 - **GET** https://work.ozotak.se/api/v1/project/$project_id 
-		 - @PARAMS: 
+		 - @QUERY: 
 			 - project_id
 		- @TEST: 
 			- 12
@@ -60,6 +60,8 @@ Ozotak API Docs
  - #### Upload Project File
    
 	 - **POST** https://work.ozotak.se/api/v1/project_files/$project_id 
+		 - @QUERY: 
+			 - project_id
 		 - @PARAMS: 
 			 - file
 
@@ -88,7 +90,9 @@ Ozotak API Docs
 			 * extra_time (format: i:s)
 			 * extra_time_comment (required if extra time > 00:00)
 	- #### Update Timelog Data
-	 * **POST** https://work.ozotak.se/api/v1/timelog
+	 * **POST** https://work.ozotak.se/api/v1/timelog/
+		 * @QUERY
+			 * 
 		 * @PARAMS
 			 * project_id (required)
 			 * start_date (required | format: d-m-Y) 
@@ -100,7 +104,7 @@ Ozotak API Docs
 			 * extra_time_comment (required if extra time > 00:00)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM1NTc1MjgsLTQ1OTgxMDMyLC03Nz
-Y0MTI3MCwtMTYyMDg3ODE1MiwtMTYxNTUxMjU5NCwxODgzNzM1
-MTddfQ==
+eyJoaXN0b3J5IjpbLTMwNjA2MjU4MiwtNDU5ODEwMzIsLTc3Nj
+QxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUx
+N119
 -->
