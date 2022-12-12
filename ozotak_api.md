@@ -77,9 +77,14 @@ Ozotak API Docs
 	   * @PARAMS
 		   * period (optional, default=this month) : @values = last_month | all 
 - #### Create Timelog Data
-	 * **GET** https://work.ozotak.se/api/v1/timelog
+	 * **POST** https://work.ozotak.se/api/v1/timelog
+		 * @PARAMS
+			 * project_id
+			 * start_date (format: d-m-Y) 
+			 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTgxMDMyLC03NzY0MTI3MCwtMTYyMD
-g3ODE1MiwtMTYxNTUxMjU5NCwxODgzNzM1MTddfQ==
+eyJoaXN0b3J5IjpbLTIxMjg2OTgwNjYsLTQ1OTgxMDMyLC03Nz
+Y0MTI3MCwtMTYyMDg3ODE1MiwtMTYxNTUxMjU5NCwxODgzNzM1
+MTddfQ==
 -->
