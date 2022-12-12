@@ -81,10 +81,12 @@ Ozotak API Docs
 		 * @PARAMS
 			 * project_id
 			 * start_date (format: d-m-Y) 
-			 * 
+			 * start_time (format: i:s)
+			 * end_time (format: i:s)
+			 * lunch_break : @VALUES
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg2OTgwNjYsLTQ1OTgxMDMyLC03Nz
-Y0MTI3MCwtMTYyMDg3ODE1MiwtMTYxNTUxMjU5NCwxODgzNzM1
-MTddfQ==
+eyJoaXN0b3J5IjpbMTk1MzA4MjE2NSwtNDU5ODEwMzIsLTc3Nj
+QxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUx
+N119
 -->
