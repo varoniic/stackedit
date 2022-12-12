@@ -89,7 +89,7 @@ Ozotak API Docs
 			 * memo (Main timelog comment)
 			 * extra_time (format: i:s)
 			 * extra_time_comment (required if extra time > 00:00)
-	- #### Update Timelog Data
+- #### Update Timelog Data
 	 * **POST** https://work.ozotak.se/api/v1/timelog/$id
 		 * @QUERY
 			 * id
@@ -103,7 +103,7 @@ Ozotak API Docs
 			 * extra_time_comment (required if extra time > 00:00)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Nzk4OTkyOSwtNDU5ODEwMzIsLTc3Nj
-QxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUx
-N119
+eyJoaXN0b3J5IjpbLTEzNDIxNzI4NjUsLTQ1Nzk4OTkyOSwtND
+U5ODEwMzIsLTc3NjQxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEy
+NTk0LDE4ODM3MzUxN119
 -->
