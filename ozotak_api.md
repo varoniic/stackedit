@@ -66,7 +66,7 @@ Ozotak API Docs
  - #### Delete Project File
    
    - **POST** https://work.ozotak.se/api/v1/project_files/delete/$project_file_id `
-		- @PARAMS: 
+		- @QUERY: 
 			- project_file_id
 			
 ### Timelogs
@@ -87,9 +87,20 @@ Ozotak API Docs
 			 * memo (Main timelog comment)
 			 * extra_time (format: i:s)
 			 * extra_time_comment (required if extra time > 00:00)
+	- #### Update Timelog Data
+	 * **POST** https://work.ozotak.se/api/v1/timelog
+		 * @PARAMS
+			 * project_id (required)
+			 * start_date (required | format: d-m-Y) 
+			 * start_time (required | format: i:s)
+			 * end_time (required | format: i:s)
+			 * lunch_break (in minutes) : @VALUES = 0 | 30 | 60 | 90 | 120
+			 * memo (Main timelog comment)
+			 * extra_time (format: i:s)
+			 * extra_time_comment (required if extra time > 00:00)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDU0NzUyNywtNDU5ODEwMzIsLTc3Nj
-QxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUx
-N119
+eyJoaXN0b3J5IjpbLTEzOTM1NTc1MjgsLTQ1OTgxMDMyLC03Nz
+Y0MTI3MCwtMTYyMDg3ODE1MiwtMTYxNTUxMjU5NCwxODgzNzM1
+MTddfQ==
 -->
