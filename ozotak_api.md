@@ -74,8 +74,10 @@ Ozotak API Docs
  - #### Get all Timelogs
    
    * **GET** https://work.ozotak.se/api/v1/timelog
+	   * @PARAMS
+		   * period (optional, default=this month) : 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjQxMjcwLC0xNjIwODc4MTUyLC0xNj
-E1NTEyNTk0LDE4ODM3MzUxN119
+eyJoaXN0b3J5IjpbLTEwMzgxMTk4MTYsLTc3NjQxMjcwLC0xNj
+IwODc4MTUyLC0xNjE1NTEyNTk0LDE4ODM3MzUxN119
 -->
