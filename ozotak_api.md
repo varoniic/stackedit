@@ -43,11 +43,15 @@ Ozotak API Docs
 	 - **GET** https://work.ozotak.se/api/v1/project
  - #### Get Project by Id
    
-	 - **GET** https://work.ozotak.se/api/v1/project/$project_id `@PARAMS: project_id; @TEST: 12`
+	 - **GET** https://work.ozotak.se/api/v1/project/$project_id 
+		 - @PARAMS: 
+			 - project_id; 
+		- @TEST: 
+			- 12
 
  - #### Create Project
 
-	* **POST** https://work.ozotak.se/api/v1/project `@PARAMS: project_name, project_code, project_summary`
+	* **POST** https://work.ozotak.se/api/v1/project \\@PARAMS: project_name, project_code, project_summary`
 
  - #### Upload Project File
    
@@ -66,6 +70,6 @@ Ozotak API Docs
    * **GET** https://work.ozotak.se/api/v1/timelog
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA4NzgxNTIsLTE2MTU1MTI1OTQsMT
-g4MzczNTE3XX0=
+eyJoaXN0b3J5IjpbLTQ2ODMyOTYyOCwtMTYyMDg3ODE1MiwtMT
+YxNTUxMjU5NCwxODgzNzM1MTddfQ==
 -->
