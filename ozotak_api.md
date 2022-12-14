@@ -95,15 +95,15 @@ Ozotak API Docs
 			 * id
 		 * @PARAMS
 			 * start_date (required | format: d-m-Y) 
-			 * start_time (required | format: i:s)
-			 * end_time (required | format: i:s)
+			 * start_time (required | format: H:i - step 15min)
+			 * end_time (required | format: H:i - step 15min)
 			 * lunch_break (in minutes) : @VALUES = 0 | 30 | 60 | 90 | 120
 			 * memo (Main timelog comment)
-			 * extra_time (format: i:s)
+			 * extra_time (required | format: H:i - step 15min)
 			 * extra_time_comment (required if extra time > 00:00)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIxNzI4NjUsLTQ1Nzk4OTkyOSwtND
-U5ODEwMzIsLTc3NjQxMjcwLC0xNjIwODc4MTUyLC0xNjE1NTEy
-NTk0LDE4ODM3MzUxN119
+eyJoaXN0b3J5IjpbLTg5ODI0OTcxOCwtMTM0MjE3Mjg2NSwtND
+U3OTg5OTI5LC00NTk4MTAzMiwtNzc2NDEyNzAsLTE2MjA4Nzgx
+NTIsLTE2MTU1MTI1OTQsMTg4MzczNTE3XX0=
 -->
